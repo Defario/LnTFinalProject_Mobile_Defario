@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentCalculatorArea">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tv_persegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="PERSEGI"/>
+
+    <EditText
+        android:id="@+id/sisi1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_persegi"
+        android:background="#f8eff8f3"
+        android:hint="Sisi"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/sisi2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_persegi"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/sisi1"
+        android:background="#f8eff8f3"
+        android:textColor="@color/black"
+        android:hint="Sisi"
+        android:textColorHint="@color/black"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/count1"
+        android:layout_below="@id/tv_persegi"
+        android:layout_marginLeft="100dp"
+        android:layout_toRightOf="@id/sisi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COUNT"
+        />
+
+    <TextView
+        android:id="@+id/result_persegi"
+        android:layout_below="@id/sisi1"
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@color/purple_700"
+        android:text="Result"
+        android:padding="16dp"
+        />
+
+<!--    SEGITIGA-->
+    <TextView
+        android:id="@+id/tv_segitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/result_persegi"
+        android:text="SEGITIGA"/>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/alas"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_segitiga"
+        android:textColor="@color/black"
+        android:background="#f8eff8f3"
+        android:hint="Alas"
+        android:textColorHint="@color/black"
+        android:padding="16dp" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/tinggi"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_segitiga"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/alas"
+        android:background="#f8eff8f3"
+        android:textColor="@color/black"
+        android:hint="Tinggi"
+        android:textColorHint="@color/black"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/count2"
+        android:layout_below="@id/tv_segitiga"
+        android:layout_marginLeft="100dp"
+        android:layout_toRightOf="@id/tinggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COUNT"
+        />
+
+    <TextView
+        android:id="@+id/result_segitiga"
+        android:layout_below="@id/alas"
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@color/purple_700"
+        android:text="Result"
+        android:padding="16dp"
+        />
+
+
+<!--    LINGKARAN-->
+    <TextView
+        android:id="@+id/tv_lingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/result_segitiga"
+        android:text="LINGKARAN"/>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/jari"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_lingkaran"
+        android:textColor="@color/black"
+        android:background="#f8eff8f3"
+        android:hint="Jari-Jari"
+        android:textColorHint="@color/black"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/count3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_lingkaran"
+        android:layout_marginLeft="100dp"
+        android:layout_toRightOf="@id/tinggi"
+        android:text="COUNT" />
+
+    <TextView
+        android:id="@+id/result_lingkaran"
+        android:layout_below="@id/jari"
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@color/purple_700"
+        android:text="Result"
+        android:padding="16dp"
+        />
+
+</RelativeLayout>

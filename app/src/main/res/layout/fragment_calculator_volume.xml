@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentCalculatorVolume">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--    BALOK-->
+    <TextView
+        android:id="@+id/tv_balok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="BALOK"/>
+
+    <EditText
+        android:id="@+id/panjang"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_balok"
+        android:background="#f8eff8f3"
+        android:hint="Panjang"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/lebar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_balok"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/panjang"
+        android:background="#f8eff8f3"
+        android:textColor="@color/black"
+        android:hint="Lebar"
+        android:textColorHint="@color/black"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/tinggi1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_balok"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/lebar"
+        android:background="#f8eff8f3"
+        android:hint="Tinggi"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/count1"
+        android:layout_below="@id/tv_balok"
+        android:layout_marginLeft="110dp"
+        android:layout_toRightOf="@id/lebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COUNT"
+        android:layout_marginTop="28dp"
+        />
+
+    <TextView
+        android:id="@+id/result_balok"
+        android:layout_below="@id/panjang"
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@color/purple_700"
+        android:text="Result"
+        android:padding="16dp"
+        />
+
+    <!--    PIRAMID-->
+    <TextView
+        android:id="@+id/tv_piramid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/result_balok"
+        android:text="PIRAMID"/>
+
+    <EditText
+        android:id="@+id/sisi"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_piramid"
+        android:background="#f8eff8f3"
+        android:hint="Sisi alas"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/tinggi2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_piramid"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/sisi"
+        android:background="#f8eff8f3"
+        android:hint="Tinggi"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/count2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_piramid"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@id/tinggi2"
+        android:text="COUNT" />
+
+    <TextView
+        android:id="@+id/result_piramid"
+        android:layout_below="@id/sisi"
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@color/purple_700"
+        android:text="Result"
+        android:padding="16dp"
+        />
+
+
+    <!--    TABUNG-->
+    <TextView
+        android:id="@+id/tv_tabung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_piramid"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/purple_200"
+        android:text="TABUNG"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24dp" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/jari"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_tabung"
+        android:textColor="@color/black"
+        android:background="#f8eff8f3"
+        android:hint="Jari-Jari"
+        android:textColorHint="@color/black"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/tinggi3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_tabung"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/jari"
+        android:background="#f8eff8f3"
+        android:hint="Tinggi"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/count3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_tabung"
+        android:layout_marginLeft="110dp"
+        android:layout_toRightOf="@id/tinggi3"
+        android:text="COUNT"
+        android:layout_marginTop="28dp"/>
+
+    <TextView
+        android:id="@+id/result_tabung"
+        android:layout_below="@id/jari"
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@color/purple_700"
+        android:text="Result"
+        android:padding="16dp"
+        />
+
+</RelativeLayout>

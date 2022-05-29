@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BINUS/LNT/Final Project/app/src/main/res/layout/activity_login.xml" value="0.24003623188405798" />
+        <entry key="..\:/BINUS/LNT/Final Project/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/BINUS/LNT/Final Project/app/src/main/res/layout/activity_profile.xml" value="0.24003623188405798" />
+        <entry key="..\:/BINUS/LNT/Final Project/app/src/main/res/layout/activity_register.xml" value="0.24003623188405798" />
+        <entry key="..\:/BINUS/LNT/Final Project/app/src/main/res/layout/fragment_calculator.xml" value="0.192481884057971" />
+        <entry key="..\:/BINUS/LNT/Final Project/app/src/main/res/layout/fragment_calculator_area.xml" value="0.16" />
+        <entry key="..\:/BINUS/LNT/Final Project/app/src/main/res/layout/fragment_calculator_volume.xml" value="0.176" />
+        <entry key="..\:/BINUS/LNT/Final Project/app/src/main/res/layout/fragment_counter.xml" value="0.16799999999999998" />
+        <entry key="..\:/BINUS/LNT/Final Project/app/src/main/res/menu/bottom_menu.xml" value="0.1265625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
